@@ -21,7 +21,7 @@ public class ManejadorIP {
                 (ip & 0xFF);
     }
 
-    // 3. Formatea el número a binario con puntos (ej. 11000000.10101000...) para mostrar el "sueteo"
+    // 3. Formatea el número a binario con puntos (ej. 11000000.10101000...) para mostrar el "subneteo"
     public static String enteroABinarioString(long ip) {
         String binario = String.format("%32s", Long.toBinaryString(ip)).replace(' ', '0');
         return binario.substring(0, 8) + "." + binario.substring(8, 16) + "." +
