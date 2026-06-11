@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CalculadoraIP_Redes:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CalculadoraIP_Redes_jar</output-path>
+    <root id="archive" name="CalculadoraIP_Redes.jar">
+      <element id="module-output" name="CalculadoraIP_Redes" />
+    </root>
+  </artifact>
+</component>
